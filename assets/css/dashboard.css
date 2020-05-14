@@ -1,0 +1,80 @@
+#accordionSidebar{
+    box-shadow: 6px 0 5px -2px #ccc;
+}
+.notification i,.messages i{
+    color:#f56f00;
+    font-size: 20px;
+}
+
+.rounded-circle{
+    border:2.5px solid #f56f00;
+}
+.card {
+    border-radius: .5rem !important;
+}
+.border-left-primary {
+    border-left: .8rem solid #4e73df!important;
+}
+.border-left-success {
+    border-left: .8rem solid #1cc88a!important;
+}
+.border-left-info {
+    border-left: .8rem solid #36b9cc!important;
+}
+.border-left-warning {
+    border-left: .8rem solid #f6c23e!important;
+}
+#wrapper #content-wrapper {
+    background-color:unset !important;
+}
+.content-wrapper{
+    margin-top:5rem;
+}
+.appBar{
+    margin-top:7rem;
+}
+.border-left-pink {
+    border-left: .8rem solid #e99292 !important;
+}
+.border-left-violet {
+    border-left: .8rem solid #c692e9 !important;
+}
+.bg-pink {
+    background-color: #e99292 !important;
+}
+.bg-violet {
+    background-color: #c692e9 !important;
+}
+.appbar-img-wrapper{
+    position:absolute;
+    right:0;
+    top:-5rem;
+}
+.appbar-img-card{
+    width: 100%;
+}
+@media (min-width:250px) and (max-width:768px) {
+    .appbar-card {
+      display: none;
+    }
+    .content-wrapper{
+        margin-top:unset;
+    }
+    .appBar{
+        margin-top:unset;
+    }
+}
+@media (min-width:768px) and (max-width:1200px) {
+    .appbar-card {
+      font-size: 10px;
+    }
+    .appbar-img-card{
+        width: 160px;
+
+    }
+    .appbar-img-wrapper{
+        top:-.5rem;
+    }
+}
+
+

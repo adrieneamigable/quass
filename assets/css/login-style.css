@@ -1,0 +1,98 @@
+.btn-microsoft {
+    color: #fff;
+    background-color: #F15723;
+    border-color: #fff;
+}
+
+.btn-microsoft:hover {
+    color: #fff;
+    background-color: #DBA51E;
+    border-color: #e6e6e6;
+}
+
+.btn-microsoft:focus, .btn-microsoft.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+.btn-microsoft.disabled, .btn-microsoft:disabled {
+    color: #fff;
+    background-color: #F15723;
+    border-color: #fff;
+}
+
+.btn-microsoft:not(:disabled):not(.disabled):active, .btn-microsoft:not(:disabled):not(.disabled).active,
+.show > .btn-microsoft.dropdown-toggle {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: #dfdfdf;
+}
+
+.btn-microsoft:not(:disabled):not(.disabled):active:focus, .btn-microsoft:not(:disabled):not(.disabled).active:focus,
+.show > .btn-microsoft.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+
+.btn-login {
+    color: #fff;
+    background-image: linear-gradient(to right, #BA4CED , #772291);
+    border-color: #fff;
+}
+
+.btn-login:hover {
+    color: #fff;
+    background-color: #BF288F;
+    border-color: #e6e6e6;
+}
+
+.btn-login:focus, .btn-login.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+.btn-login.disabled, .btn-login:disabled {
+    color: #fff;
+    background-color: #F15723;
+    border-color: #fff;
+}
+
+.btn-login:not(:disabled):not(.disabled):active, .btn-login:not(:disabled):not(.disabled).active,
+.show > .btn-login.dropdown-toggle {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: #dfdfdf;
+}
+
+.btn-login:not(:disabled):not(.disabled):active:focus, .btn-login:not(:disabled):not(.disabled).active:focus,
+.show > .btn-login.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+.assurance{
+    color:#78268F !important;
+}
+.social_media_icon{
+    cursor: pointer;
+}
+div.circle {
+    -moz-border-radius: 1000px/1000px;
+    -webkit-border-radius: 1000px 1000px;
+    border-radius: 1000px/1000px;
+    border: solid 230px #BA4CED;
+    width: 1000px;
+    height:1000px;
+    margin-left:-450px;
+    margin-top:-160px;
+    box-shadow: inset -40px 2px 0px -10px yellow !important;
+}
+.center {
+    position: absolute;
+    top: 35%;
+    right: 55%;
+    width: 400px;
+}
+.center h2 {
+    color:#BF288F !important;
+}
+body{
+    overflow: hidden;
+}
